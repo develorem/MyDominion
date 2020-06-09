@@ -1,0 +1,98 @@
+﻿<Window x:Class="Dev.Dominion.CardUpdater.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dev.Dominion.CardUpdater"
+        xmlns:Models="clr-namespace:Dev.Dominion.Scraper.Models;assembly=Dev.Dominion.Common"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" d:DataContext="{d:MainViewModel }">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <WrapPanel Grid.Row="0" Grid.Column="0">
+            <Button Name="SaveButton" Command="{Binding SaveCommand}">Save</Button>
+            <Button Name="ReloadButton" Command="{Binding ReloadCommand}">Reload</Button>
+        </WrapPanel>
+
+        <local:ExtendedTreeView x:Name="SetsTreeView" Grid.Row="1" Grid.Column="0" ItemsSource="{Binding Sets}" BoundSelectedItem ="{Binding SelectedCard, Mode=TwoWay}">
+            <TreeView.Resources>
+                <HierarchicalDataTemplate DataType="{x:Type Models:Set}" ItemsSource="{Binding Cards}">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Name}" />
+                    </StackPanel>
+                </HierarchicalDataTemplate>
+                <DataTemplate DataType="{x:Type Models:Card}">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Name}" />
+                    </StackPanel>
+                </DataTemplate>
+            </TreeView.Resources>
+        </local:ExtendedTreeView>
+
+        <Grid Grid.Row="1" Grid.Column="1" Name="DetailsGrid">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" Name="ImageAndInfoGrid">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="296"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Image Name="CardImage" Grid.Column="0" Source="{Binding SelectedImage}"></Image>
+                <Label Name="CardTextLabel" Grid.Column="1" Content="{Binding SelectedCard.FullText}"></Label>
+            </Grid>
+
+            <Grid Grid.Row="1" Name="EditDetailsGrid" DataContext="{Binding SelectedCard}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Label Grid.Row="0">Cards +</Label>
+                <TextBox Grid.Row="0" Grid.Column="1" MinWidth="100" Text="{Binding PlusCard}"></TextBox>
+                <Label Grid.Row="1">Actions +</Label>
+                <TextBox Grid.Row="1" Grid.Column="1" MinWidth="100" Text="{Binding PlusAction}"></TextBox>
+                <Label Grid.Row="2">Buys +</Label>
+                <TextBox Grid.Row="2" Grid.Column="1" MinWidth="100" Text="{Binding PlusBuy}"></TextBox>
+                <Label Grid.Row="3">Coins +</Label>
+                <TextBox Grid.Row="3" Grid.Column="1" MinWidth="100" Text="{Binding PlusCoin}"></TextBox>
+                <Label Grid.Row="4">Victory +</Label>
+                <TextBox Grid.Row="4" Grid.Column="1" MinWidth="100" Text="{Binding PlusVictory}"></TextBox>
+                <Label Grid.Row="5">Has extra effect</Label>
+                <CheckBox IsChecked="{Binding HasSpecialEffect}" Grid.Row="5" Grid.Column="1"></CheckBox>
+                <Label Grid.Row="6">Card Type</Label>
+                <TextBox Grid.Row="6" Grid.Column="1" MinWidth="100" Text="{Binding CardType}"></TextBox>
+
+                <Label Grid.Row="7">Card Cost</Label>
+                <TextBox Grid.Row="7" Grid.Column="1" MinWidth="100" Text="{Binding Cost}"></TextBox>
+
+
+            </Grid>
+
+        </Grid>
+
+    </Grid>
+</Window>

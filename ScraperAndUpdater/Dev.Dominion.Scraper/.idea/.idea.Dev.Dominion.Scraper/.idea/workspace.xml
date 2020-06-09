@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f286c9f6-617f-4766-b47b-712666d880ed" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="SetParser.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Parsing/SetParser.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1247">
+              <caret line="161" column="47" lean-forward="true" selection-start-line="161" selection-start-column="47" selection-end-line="161" selection-end-column="47" />
+              <folding>
+                <marker date="1488956252862" expanded="true" signature="6:86" ph="..." />
+                <marker date="1488956252862" expanded="true" signature="126:8126" ph="{...}" />
+                <marker date="1488956252862" expanded="true" signature="155:8124" ph="{...}" />
+                <marker date="1488956252862" expanded="true" signature="411:549" ph="{...}" />
+                <marker date="1488956252862" expanded="true" signature="559:1114" ph="/* http://dominion.diehrstraits.com/?set=2nd ... */" />
+                <marker date="1488956252862" expanded="true" signature="1156:1678" ph="{...}" />
+                <marker date="1488956252862" expanded="true" signature="1404:1643" ph="{...}" />
+                <marker date="1488956252862" expanded="true" signature="1689:2374" ph="/* http://dominion.diehrstraits.com/?card=!herbalist ... */" />
+                <marker date="1488956252862" expanded="true" signature="2432:2691" ph="{...}" />
+                <marker date="1488956252862" expanded="true" signature="2752:3059" ph="{...}" />
+                <marker date="1488956252862" expanded="true" signature="2980:3049" ph="{...}" />
+                <marker date="1488956252862" expanded="true" signature="3116:4015" ph="{...}" />
+                <marker date="1488956252862" expanded="true" signature="3198:3281" ph="{...}" />
+                <marker date="1488956252862" expanded="true" signature="3359:3443" ph="{...}" />
+                <marker date="1488956252862" expanded="true" signature="3523:3609" ph="{...}" />
+                <marker date="1488956252862" expanded="true" signature="3687:3771" ph="{...}" />
+                <marker date="1488956252862" expanded="true" signature="3788:3857" ph="{...}" />
+                <marker date="1488956252862" expanded="false" signature="4065:4228" ph="{...}" />
+                <marker date="1488956252862" expanded="false" signature="4276:4497" ph="{...}" />
+                <marker date="1488956252862" expanded="true" signature="4550:4672" ph="{...}" />
+                <marker date="1488956252862" expanded="true" signature="4730:4986" ph="{...}" />
+                <marker date="1488956252862" expanded="true" signature="5060:5427" ph="{...}" />
+                <marker date="1488956252862" expanded="true" signature="5233:5392" ph="{...}" />
+                <marker date="1488956252862" expanded="true" signature="5489:5711" ph="{...}" />
+                <marker date="1488956252862" expanded="true" signature="5774:6255" ph="{...}" />
+                <marker date="1488956252862" expanded="true" signature="5952:6245" ph="{...}" />
+                <marker date="1488956252862" expanded="false" signature="6339:6599" ph="{...}" />
+                <marker date="1488956252862" expanded="true" signature="6657:6740" ph="{...}" />
+                <marker date="1488956252862" expanded="true" signature="6797:7043" ph="{...}" />
+                <marker date="1488956252862" expanded="true" signature="7175:7632" ph="{...}" />
+                <marker date="1488956252862" expanded="true" signature="7745:8118" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Settings.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Parsing/Settings.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <marker date="1488947581968" expanded="true" signature="6:51" ph="..." />
+                <marker date="1488947581968" expanded="true" signature="91:1286" ph="{...}" />
+                <marker date="1488947581968" expanded="true" signature="119:1284" ph="{...}" />
+                <marker date="1488947581968" expanded="true" signature="196:275" ph="{...}" />
+                <marker date="1488947581968" expanded="true" signature="321:413" ph="{...}" />
+                <marker date="1488947581968" expanded="true" signature="498:572" ph="{...}" />
+                <marker date="1488947581968" expanded="true" signature="624:698" ph="{...}" />
+                <marker date="1488947581968" expanded="true" signature="745:1278" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>\&quot;</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../Dev.Dominion.Scraper.Tests/ParsingTests.cs" />
+        <option value="$PROJECT_DIR$/Parsing/Settings.cs" />
+        <option value="$PROJECT_DIR$/Models/Card.cs" />
+        <option value="$PROJECT_DIR$/Parsing/SetParser.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dev.Dominion.Scraper (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dev.Dominion.Scraper.Tests" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dev.Dominion.Scraper (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dev.Dominion.Scraper" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dev.Dominion.Scraper (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dev.Dominion.Scraper" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parsing" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration default="true" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Dev.Dominion.Scraper.csproj" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5.2" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/bin/Debug/Dev.Dominion.Scraper.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin/Debug" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue=".NET Project.Default" />
+    </list>
+  </component>
+  <component name="RuntimeDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f286c9f6-617f-4766-b47b-712666d880ed" name="Default" comment="" />
+      <created>1488946586636</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1488946586636</updated>
+      <workItem from="1488946588919" duration="3530000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3530000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3030623" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../Dev.Dominion.Scraper.Tests/ParsingTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+          <folding>
+            <marker date="1488947444426" expanded="true" signature="6:136" ph="..." />
+            <marker date="1488947444426" expanded="true" signature="174:1470" ph="{...}" />
+            <marker date="1488947444426" expanded="true" signature="222:1468" ph="{...}" />
+            <marker date="1488947444426" expanded="true" signature="290:614" ph="{...}" />
+            <marker date="1488947444426" expanded="true" signature="678:885" ph="{...}" />
+            <marker date="1488947444426" expanded="true" signature="948:1163" ph="{...}" />
+            <marker date="1488947444426" expanded="true" signature="1222:1461" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Parsing/Settings.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <marker date="1488947581968" expanded="true" signature="6:51" ph="..." />
+            <marker date="1488947581968" expanded="true" signature="91:1286" ph="{...}" />
+            <marker date="1488947581968" expanded="true" signature="119:1284" ph="{...}" />
+            <marker date="1488947581968" expanded="true" signature="196:275" ph="{...}" />
+            <marker date="1488947581968" expanded="true" signature="321:413" ph="{...}" />
+            <marker date="1488947581968" expanded="true" signature="498:572" ph="{...}" />
+            <marker date="1488947581968" expanded="true" signature="624:698" ph="{...}" />
+            <marker date="1488947581968" expanded="true" signature="745:1278" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Card.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <marker date="1488955951741" expanded="true" signature="37:651" ph="{...}" />
+            <marker date="1488955951741" expanded="true" signature="61:649" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Parsing/SetParser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1247">
+          <caret line="161" column="47" lean-forward="true" selection-start-line="161" selection-start-column="47" selection-end-line="161" selection-end-column="47" />
+          <folding>
+            <marker date="1488956252862" expanded="true" signature="6:86" ph="..." />
+            <marker date="1488956252862" expanded="true" signature="126:8126" ph="{...}" />
+            <marker date="1488956252862" expanded="true" signature="155:8124" ph="{...}" />
+            <marker date="1488956252862" expanded="true" signature="411:549" ph="{...}" />
+            <marker date="1488956252862" expanded="true" signature="559:1114" ph="/* http://dominion.diehrstraits.com/?set=2nd ... */" />
+            <marker date="1488956252862" expanded="true" signature="1156:1678" ph="{...}" />
+            <marker date="1488956252862" expanded="true" signature="1404:1643" ph="{...}" />
+            <marker date="1488956252862" expanded="true" signature="1689:2374" ph="/* http://dominion.diehrstraits.com/?card=!herbalist ... */" />
+            <marker date="1488956252862" expanded="true" signature="2432:2691" ph="{...}" />
+            <marker date="1488956252862" expanded="true" signature="2752:3059" ph="{...}" />
+            <marker date="1488956252862" expanded="true" signature="2980:3049" ph="{...}" />
+            <marker date="1488956252862" expanded="true" signature="3116:4015" ph="{...}" />
+            <marker date="1488956252862" expanded="true" signature="3198:3281" ph="{...}" />
+            <marker date="1488956252862" expanded="true" signature="3359:3443" ph="{...}" />
+            <marker date="1488956252862" expanded="true" signature="3523:3609" ph="{...}" />
+            <marker date="1488956252862" expanded="true" signature="3687:3771" ph="{...}" />
+            <marker date="1488956252862" expanded="true" signature="3788:3857" ph="{...}" />
+            <marker date="1488956252862" expanded="false" signature="4065:4228" ph="{...}" />
+            <marker date="1488956252862" expanded="false" signature="4276:4497" ph="{...}" />
+            <marker date="1488956252862" expanded="true" signature="4550:4672" ph="{...}" />
+            <marker date="1488956252862" expanded="true" signature="4730:4986" ph="{...}" />
+            <marker date="1488956252862" expanded="true" signature="5060:5427" ph="{...}" />
+            <marker date="1488956252862" expanded="true" signature="5233:5392" ph="{...}" />
+            <marker date="1488956252862" expanded="true" signature="5489:5711" ph="{...}" />
+            <marker date="1488956252862" expanded="true" signature="5774:6255" ph="{...}" />
+            <marker date="1488956252862" expanded="true" signature="5952:6245" ph="{...}" />
+            <marker date="1488956252862" expanded="false" signature="6339:6599" ph="{...}" />
+            <marker date="1488956252862" expanded="true" signature="6657:6740" ph="{...}" />
+            <marker date="1488956252862" expanded="true" signature="6797:7043" ph="{...}" />
+            <marker date="1488956252862" expanded="true" signature="7175:7632" ph="{...}" />
+            <marker date="1488956252862" expanded="true" signature="7745:8118" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

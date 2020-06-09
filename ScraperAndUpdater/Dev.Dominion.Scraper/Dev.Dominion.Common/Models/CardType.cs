@@ -1,0 +1,37 @@
+﻿namespace Dev.Dominion.Scraper.Models
+{
+    public enum CardType
+    {
+        Action,
+        Treasure,
+        Victory,
+        TreasureAction,
+        ActionRuins,
+        VictoryShelter,
+        ActionShelter,
+        ReactionShelter,
+        ActionReaction,
+        ActionLooter,
+        ActionAttackKnight,
+        ActionAttackLooter,
+        ActionAttackKnightVictory,
+        TreasureReserve,
+        ActionAttackDuration,
+        ActionTraveller,
+        ActionReserve,
+        ActionReserveVictory,
+        ActionDuration,
+        ActionDurationReaction,
+        ActionReserveDuration,
+        ActionVictoryDuration,
+        ActionAttackTraveller,
+        Curse,
+        TreasureAttack,
+        ActionAttack,
+        ActionVictory,
+        ActionTreasure,
+        ActionPrize,
+        TreasurePrize,
+        Unknown
+    }
+}
